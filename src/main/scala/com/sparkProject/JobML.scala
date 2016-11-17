@@ -48,7 +48,7 @@ object JobML {
       .setOutputCol("features")
 
     val dfTransformed = assembler.transform(df)
-    println(dfTransformed.select("features").show(10))
+    //println(dfTransformed.select("features").show(10))
 
     //Old Question 1.b
     //We do not use StandardScaler because it converts vectors in sparse vectors which are not handled properly
@@ -62,13 +62,13 @@ object JobML {
 
     val indexed = indexer.fit(dfTransformed).transform(dfTransformed)
 
-    println(indexed.select("label").show(10))
+    //println(indexed.select("label").show(10))
 
     //Question 2.a
     val Array(training, test) = indexed.randomSplit(Array(0.9, 0.1))
 
     val Array(training_set, validation_set) = training.randomSplit(Array(0.7, 0.3))
-    println(training_set.show())
+    //println(training_set.show())
 
     //Question 2.b
     val lr = new LogisticRegression()
@@ -84,9 +84,6 @@ object JobML {
     val lrModel = lr.fit(training_set)
     val prediction = lrModel.transform(validation_set)
 
-    // Print the coefficients and intercept for logistic regression
-    println(s"Coefficients: ${lrModel.coefficients} Intercept: ${lrModel.intercept}")
-
     // Logaritmic scale, step 0.5
     val powersArray = -6.0 to (0.0, 0.5) toArray
     val logScaleParamsArray = powersArray.map(x => math.pow(10, x))
@@ -100,7 +97,7 @@ object JobML {
     // A TrainValidationSplit requires an Estimator, a set of Estimator ParamMaps, and an Evaluator.
     val trainValidationSplit = new TrainValidationSplit()
       .setEstimator(lr)
-      .setEvaluator(new RegressionEvaluator)
+      .setEvaluator(new BinaryClassificationEvaluator)
       .setEstimatorParamMaps(paramGrid)
       .setTrainRatio(0.7)
 
