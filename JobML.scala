@@ -10,6 +10,7 @@ import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
 
 /**
   * Exoplanets classifier to predict their suitabibility for extraterrestrial life
+  * Gregory FREYD et Clément BEGOTTO
   */
 object JobML {
 
