@@ -1,0 +1,37 @@
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[0minfo[0m] [0mSHA-1: b5eb61bdfb75a098548d433e74ae95e5635464d2[0m
+[0m[[0minfo[0m] [0mPackaging /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$anonfun$udf_sum$1$1.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$anonfun$udf_sum$1$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$$typecreator2$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job$.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job$.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/Job.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/Job.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/JobML$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/JobML$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/JobML$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML$.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/JobML$.class[0m
+[0m[[0mdebug[0m] [0m	com/sparkProject/JobML.class[0m
+[0m[[0mdebug[0m] [0m	  /cal/homes/gfreyd/INF729/Spark/TP2-3/tp_spark/tp_spark/target/streams/$global/assemblyOption/$global/streams/assembly/9b22c4d15b0af3098734573ecb098c829ce2c220_dir/com/sparkProject/JobML.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
